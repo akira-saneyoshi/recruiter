@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#444444">
+  <title>自己紹介ゲーム.work</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="bingo.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="result" class="result"></div>
+    <ul id="number" class="number"></ul>
+    <div class="wrapper-button">
+      <button id="button" class="button">START</button>
+    </div>
+
+    <audio id="sound-play" preload="auto">
+      <source src="start.mp3" type="audio/mp3">
+    </audio>
+    <audio id="sound-pause" preload="auto">
+      <source src="pause.mp3" type="audio/mp3">
+    </audio>
+
+  </div>
+</body>
+
+</html>
